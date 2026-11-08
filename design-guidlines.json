@@ -1,0 +1,45 @@
+{
+    "app_name": "Kolkata Freight Logistics Data Intelligence",
+    "app_type": "hybrid_fullstack",
+    "theme": "light",
+    "archetype": "Swiss & High-Contrast (Authority, Clarity, Truth)",
+    "forbidden_color": "#1B93A4",
+    "forbidden_font": "space grotesk",
+    "typography": {
+        "heading_font": "Cabinet Grotesk, Chivo, sans-serif",
+        "body_font": "Inter, IBM Plex Sans, sans-serif",
+        "mono_font": "JetBrains Mono, monospace"
+    },
+    "colors": {
+        "primary": "#0F172A",
+        "primary_foreground": "#FFFFFF",
+        "accent": "#2563EB",
+        "background": "#F8FAFC",
+        "card_background": "#FFFFFF",
+        "border": "#E2E8F0",
+        "muted": "#64748B",
+        "warning": "#DC2626",
+        "success": "#16A34A"
+    },
+    "image_urls": [
+        {
+            "category": "logistics_hero",
+            "description": "Forklift and warehouse freight loading",
+            "image_url": "https://images.unsplash.com/photo-1532635042-a6f6ad4745f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwyfHxmcmVpZ2h0JTIwc2hpcHBpbmclMjBsb2dpc3RpY3MlMjB3YXJlaG91c2UlMjB0cnVja3xlbnwwfHx8fDE3OTQwNzQ3NjV8MA&ixlib=rb-4.1.0&q=85"
+        },
+        {
+            "category": "fleet_transport",
+            "description": "Freight trucking on highway",
+            "image_url": "https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxmcmVpZ2h0JTIwc2hpcHBpbmclMjBsb2dpc3RpY3MlMjB3YXJlaG91c2UlMjB0cnVja3xlbnwwfHx8fDE3OTQwNzQ3NjV8MA&ixlib=rb-4.1.0&q=85"
+        }
+    ],
+    "component_path": "/app/frontend/src/components",
+    "instructions_to_main_agent": "Build a comprehensive fullstack Kolkata Freight Logistics Analytics dashboard with simulated 1.5M shipments data across 12 hubs, CSV upload parser, hypothesis testing engine, driver tree quantifications, early-warning weekly alerts, root-cause memo generator, and downloadable report exports.",
+    "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+        "You MUST NOT apply universal transition like transition: all.",
+        "Every interactive and key informational element MUST include a data-testid attribute.",
+        "DO NOT use complete transparent background in header or overlays.",
+        "Use clean minimalist professional light theme suitable for enterprise logistics analysis.",
+        "Ensure all buttons, tabs, tables, and filters have robust data-testid attributes and high contrast accessible states."
+    ]
+}
